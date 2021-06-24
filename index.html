@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<link
+			rel="stylesheet"
+			href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+		/>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/selectivizr@1.0.3/selectivizr.min.js"
+		></script>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"
+		></script>
+		<script
+			defer
+			src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"
+		></script>
+		<script
+			defer
+			src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"
+		></script>
+		<script defer src="script.js"></script>
+	</head>
+	<body>
+		<header>
+			<div class="navbar">
+				<div class="container">
+					<a class="logo" href="#">Remind<span>Me</span></a>
+
+					<i class="ion-navicon-round mobile__menu"></i>
+
+					<nav>
+						<i class="ion-close-round mobile__exit"></i>
+
+						<ul class="primary__nav">
+							<li><a class="current link" href="#">Home</a></li>
+							<li><a class="link" href="#">Features</a></li>
+							<li><a class="link" href="#">Pricing</a></li>
+						</ul>
+
+						<ul class="secondary__nav">
+							<li><a class="link" href="#">Contact</a></li>
+							<li><a class="premium-cta link" href="#">Go Premium</a></li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<section class="hero" id="section--1">
+			<div class="container">
+				<div class="col__left">
+					<p class="subhead">It's a Nitty &amp; Gritty</p>
+					<h1>A Task App That Acts As A Friend</h1>
+
+					<div class="hero__cta">
+						<a href="#" class="primary__cta" target="_blank">Try for Free</a>
+						<a href="#" class="video__cta"
+							><i class="ion-ios-videocam videocam"></i>Watch a Video</a
+						>
+					</div>
+				</div>
+
+				<img class="hero__img" src="images/presidentlady.jpeg" alt="" />
+			</div>
+		</section>
+
+		<section class="features__section" id="section--2">
+			<div class="container">
+				<ul class="primary__features">
+					<div class="box"></div>
+					<div class="design"></div>
+					<div class="primary__features--1">
+						<li><i class="ion-ios-checkmark"></i>Unlimited Test</li>
+						<li><i class="ion-ios-checkmark"></i>SMS Task Reminders</li>
+						<li><i class="ion-ios-checkmark"></i>Social Media Announcements</li>
+					</div>
+
+					<div class="primary__features--2">
+						<li><i class="ion-ios-checkmark"></i>Real Time Collaboration</li>
+						<li><i class="ion-ios-checkmark"></i>Other Awesome Features</li>
+					</div>
+				</ul>
+
+				<img
+					class="features__section-img"
+					src="images/holding-phone.jpg"
+					alt="Holding a phone "
+				/>
+			</div>
+		</section>
+
+		<section class="testimonials__section" id="section--3">
+			<div class="container">
+				<ul class="primary__testimonials">
+					<li class="testimonial__link">
+						<img src="images/person.jpg" alt="Image of ceo" />
+						<blockquote>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+							nemo!
+						</blockquote>
+						<cite>-Jane Doe</cite>
+					</li>
+					<li class="testimonial__link">
+						<img src="images/person.jpg" alt="Image of ceo" />
+						<blockquote>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+							nemo!
+						</blockquote>
+						<cite>-Paul Jackson</cite>
+					</li>
+					<li class="testimonial__link">
+						<img src="images/person.jpg" alt="Image of ceo" />
+						<blockquote>
+							Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius,
+							nemo!
+						</blockquote>
+						<cite>-Jessica Davies</cite>
+					</li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="contacts__section" id="section--4">
+			<div class="container">
+				<div class="contacts__left">
+					<h2 class="contact__heading">Contact</h2>
+
+					<form action="#">
+						<label for="name">Name</label>
+						<input type="text" name="name" id="name" />
+
+						<label for="email">Email</label>
+						<input type="email" name="email" id="email" />
+
+						<label for="message">Message</label>
+						<textarea
+							name="message"
+							id="message"
+							cols="30"
+							rows="10"
+						></textarea>
+
+						<input
+							type="submit"
+							class="send__message-cta"
+							value="Send Message"
+						/>
+					</form>
+				</div>
+
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.3084592820146!2d3.3192176148224966!3d6.608540524002171!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b919fb98c9723%3A0x67a425c3504ad448!2sIkuomola%20St%2C%20Dopemu%2C%20Lagos!5e0!3m2!1sen!2sng!4v1622500028772!5m2!1sen!2sng"
+					width="600"
+					height="450"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+				></iframe>
+			</div>
+		</section>
+	</body>
+</html>
